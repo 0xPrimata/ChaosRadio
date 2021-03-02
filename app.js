@@ -6,7 +6,7 @@ const superagent = require('superagent');
 //vars for control
 let playing = false;
 let queued = false;
-let playlistId = "57atkfNvyIRzdJqXrYe4oQ";
+let playlistId = "";
  //Songs List
 let list = new List();
 const scopes = [
@@ -32,8 +32,8 @@ const scopes = [
 ];
 
 var spotifyApi = new SpotifyWebApi({
-    clientId: '1de8346f83be49e286c3d14965a5a6f8',
-    clientSecret: '0c2d8c0a6849480d8b300c31a455d030',
+    clientId: '',
+    clientSecret:'',
 
 });
 
